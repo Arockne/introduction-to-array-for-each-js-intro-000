@@ -5,6 +5,6 @@ for (var i = 0; i < evens.length; i++) {
   console.log(`${evens[i]} is not odd!`);
 }
 
-evens.forEach(num => console.log(`${evens[i]} is not odd!`));
+evens.forEach(num => console.log(`${num} is not odd!`));
 
 // Add your changeCompletely() function here:
