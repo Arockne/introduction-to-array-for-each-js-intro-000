@@ -11,3 +11,6 @@ evens.forEach((num, index, array) => {
 });
 
 // Add your changeCompletely() function here:
+function doToEvens(callback) {
+  evens.forEach(callback);
+}
